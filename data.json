@@ -7444,17 +7444,18 @@
         "e_string" : "",
         "m_string" : "",
         "m_code" : 404,
-        "known" : ["Pipi Fax", "RageNet"],
+        "known" : ["RageNet"],
         "cat" : "social"
        },
 	{
         "name" : "Rec.Net",
-        "uri_check" : "https://rec.net/user/{account}",
+        "uri_check" : "https://apim.rec.net/accounts/account?username={account}",
+	"uri_pretty" : "https://rec.net/user/{account}",
         "e_code" : 200,
         "e_string" : "",
-        "m_string" : "404 User Not Found",
-        "m_code" : 200,
-        "known" : ["Fortnitekiller", "RageNet"],
+        "m_string" : "",
+        "m_code" : 404,
+        "known" : ["RageNet"],
         "cat" : "gaming"
        }
   ]
